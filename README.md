@@ -9,6 +9,7 @@ El problema # 3 Corresponde a https://people.brunel.ac.uk/~mastjjb/jeb/orlib/fil
 
 Los problemas nodos son (Numero del nodo, Eje X, Eje Y, Eje Z) Para calcular las distancias se hizo por distancias euclidianas
 
+## Spark
 Para ejecutar y ver los resultados con spark hay q ver los datos que genera en el contenedor. 
 docker build -t tsp-spark .
 docker run tsp-spark
