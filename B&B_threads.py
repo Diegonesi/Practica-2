@@ -82,7 +82,7 @@ nombre_archivo = 'problema1.txt'
 ciudades = leer_datos_archivo(nombre_archivo)
 
 # Configuración de la cantidad de threads
-max_threads = 4
+max_threads = 8
 
 mejor_ruta, mejor_costo = tsp_branch_and_bound(ciudades, max_threads)
 print("Mejor ruta:", mejor_ruta)

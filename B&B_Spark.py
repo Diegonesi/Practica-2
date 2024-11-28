@@ -88,7 +88,7 @@ ciudades1 = [[1, 41, 49, 10], [2, 35, 17, 7], [3, 55, 45, 13], [4, 55, 20, 19], 
 # Número de nodos de Spark
 num_nodos = 4
 
-mejor_ruta, mejor_costo = tsp_branch_and_bound_spark(ciudades1, num_nodos)
+mejor_ruta, mejor_costo = tsp_branch_and_bound_spark(ciudades3, num_nodos)
 print("Mejor ruta:", mejor_ruta)
 print("Mejor costo:", mejor_costo)
 
